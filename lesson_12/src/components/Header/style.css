@@ -1,0 +1,36 @@
+h5.app_name {
+    font-size: 20px;
+    text-decoration: overline;
+    letter-spacing: 1px;
+    color: #5af436;
+    text-shadow: 1px -2px 0px rgba(255, 255, 255, 0.4);
+}
+
+
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: black;
+    padding: 0 24px;
+}
+
+ul.nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 16px;
+    list-style: none;
+}
+ul.nav li a {
+    text-decoration: none;
+    color: #c1c1c1;
+    font-weight: 400;
+    
+}
+
+ul.nav li:hover a {
+    color: #5af436;
+    font-weight: bold;
+}

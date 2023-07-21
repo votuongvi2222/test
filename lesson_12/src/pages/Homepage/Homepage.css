@@ -1,0 +1,34 @@
+.slick-list {
+	max-width: 700px;
+	margin: 0 auto;
+	padding: 30px 0;
+}
+.slick-list .slick-slide {
+	font-size: 30px;
+	text-align: center;
+	padding: 40px 20px;
+	line-height: 2;
+	font-weight: 700;
+}
+.slick-list .slick-slide:nth-child(even) {
+	background-color: #ddd;
+}
+.slick-list .slick-slide:nth-child(odd) {
+	background-color: #ccc;
+}
+.slick-arrow {
+	z-index: 999;
+	width: 40px;
+	height: 40px;
+}
+
+.slick-arrow:before {
+	font-size: 30px;
+    background: none;
+}
+.slick-next {
+	right: 0;
+}
+.slick-prev {
+	left: 0;
+}
